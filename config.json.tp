@@ -37,6 +37,25 @@
                     "path": "/vl"
                 }
             }
+        },
+        {
+            "port": 8089,
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "$UUID",
+                        "level": 0
+                    }
+                ],
+                "decryption": "none"
+            },
+            "streamSettings": {
+                "network": "ws",
+                "wsSettings": {
+                    "path": "/vm"
+                }
+            }
         }
         // {
         //     "port": 8082,
