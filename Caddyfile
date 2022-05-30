@@ -9,6 +9,7 @@ http://:{$PORT} {
     }
 
     @websockets {
+        path /vl
         header Connection *Upgrade*
         header Upgrade websocket
     }
