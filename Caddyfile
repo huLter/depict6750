@@ -20,6 +20,6 @@ http://:{$PORT} {
         header Upgrade websocket
         path /stew6214
     }
-    reverse_proxy @websockets_vless localhost:8081
+    reverse_proxy @websockets_vmess localhost:8081
 
 }
