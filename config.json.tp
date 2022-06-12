@@ -6,8 +6,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "$UUID",
-                        "level": 0
+                        "id": "$UUID"
                     }
                 ],
                 "decryption": "none"
@@ -18,7 +17,24 @@
                     "path": "/lurk2926"
                 }
             }
-        }
+        },
+        {
+            "port": 8081,
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "$UUID"
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "ws",
+                "wsSettings": {
+                    "path": "/stew6214"
+                }
+            }
+        },
         // {
         //     "port": 8082,
         //     "listen": "127.0.0.1",
