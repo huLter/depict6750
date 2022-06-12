@@ -11,7 +11,7 @@ http://:{$PORT} {
     @websockets_vless {
         header Connection *Upgrade*
         header Upgrade websocket
-        path /$UUID-vless
+        path /lurk2926
     }
     reverse_proxy @websockets_vless localhost:8080
 

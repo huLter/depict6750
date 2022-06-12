@@ -15,7 +15,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/$UUID-vless"
+                    "path": "/lurk2926"
                 }
             }
         }
